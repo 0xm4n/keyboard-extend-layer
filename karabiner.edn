@@ -5,7 +5,7 @@
         ;; navigation 
         [:##h :left_arrow ["caps-mode" 1]]
         [:##l :right_arrow ["caps-mode" 1]]
-        [:##k :up_arrow ["caps-mode" 1]]
+        [:k :up_arrow ["caps-mode" 1]]
         [:##j :down_arrow ["caps-mode" 1]]
         ;; delete
         [:n :delete_or_backspace ["caps-mode" 1]]
@@ -27,11 +27,11 @@
         ;; SIGTSTP signal
         [:z :!Tz ["caps-mode" 1]]
         ;; PageUp/PageDown
-        [:##y :page_up ["caps-mode" 1]]
-        [:##o :page_down ["caps-mode" 1]]
+        [:#Cu :page_up ["caps-mode" 1]]
+        [:#Cp :page_down ["caps-mode" 1]]
         ;; Home/End
-        [:#Cu :home ["caps-mode" 1]]
-        [:##i :end ["caps-mode" 1]]
+        [:#Ci :home ["caps-mode" 1]]
+        [:#Co :end ["caps-mode" 1]]
         ;; Fn
         [:1 :f1 ["caps-mode" 1]]
         [:2 :f2 ["caps-mode" 1]]
@@ -47,7 +47,11 @@
         [:equal_sign :f12 ["caps-mode" 1]]
         ;; Misc
         [:semicolon :!S1 ["caps-mode" 1]]
+        [:quote :!Shyphen ["caps-mode" 1]]
         [:open_bracket :!S9 ["caps-mode" 1]]
         [:close_bracket :!S0 ["caps-mode" 1]]
+        [:e :equal_sign ["caps-mode" 1]]
+        [:t :!Sgrave_accent_and_tilde ["caps-mode" 1]]
+        [:escape :caps_lock]
     ]}]
 }
